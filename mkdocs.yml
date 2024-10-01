@@ -1,6 +1,6 @@
 ---
 site_name: YVtils Documentation
-site_url: https://docs.yvtls.net
+site_url: 'https://docs.yvtls.net/'
 
 theme: 
   logo: assets/logo_transparent.webp
@@ -37,9 +37,6 @@ extra:
     - name: Deutsch
       link: /de/
       lang: de
-
-  version:
-    provider: mike
 
 plugins:
   - mkdocs-video
