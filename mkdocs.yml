@@ -1,7 +1,7 @@
 ---
 site_name: YVtils Documentation
 nav:
-  - Startseite: index.md
+  - Home: index.md
   - SMP:
     - config.yml: smp/config.yml.md
     - Admin:
