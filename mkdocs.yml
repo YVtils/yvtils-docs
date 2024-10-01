@@ -1,5 +1,45 @@
 ---
 site_name: YVtils Documentation
+
+theme: 
+  name: material
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+  - mkdocs-video
+markdown_extensions:
+  - mdx_truly_sane_lists
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+
+
 nav:
   - Home: index.md
   - SMP:
@@ -23,17 +63,3 @@ nav:
     - Waypoints:
       - config.yml: smp/waypoints/config.yml.md
       - save.yml: smp/waypoints/save.yml.md
-theme: material
-plugins:
-  - mkdocs-video
-markdown_extensions:
-  - mdx_truly_sane_lists
-  - attr_list
-  - md_in_html
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - admonition
-  - pymdownx.details
