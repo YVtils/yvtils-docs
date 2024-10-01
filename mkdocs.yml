@@ -52,10 +52,58 @@ plugins:
           default: true
           locale: en
           name: English
+          nav:
+            - Home: index.md
+            - SMP:
+              - config.yml: smp/config.yml.md
+              - Admin:
+                - mutedPlayers.yml: smp/admin/mutedPlayers.yml.md
+              - Discord:
+                - config.yml: smp/discord/config.yml.md
+                - save.yml: smp/discord/save.yml.md
+              - Fusions:
+                - fusionName.yml: smp/fusions/fusionName.yml.md
+              - Language:
+                - en.yml: smp/language/en.yml.md
+              - MultiMine:
+                - config.yml: smp/multiMine/config.yml.md
+              - Server:
+                - config.yml: smp/server/config.yml.md
+              - Status:
+                - config.yml: smp/status/config.yml.md
+                - save.yml: smp/status/save.yml.md
+              - Waypoints:
+                - config.yml: smp/waypoints/config.yml.md
+                - save.yml: smp/waypoints/save.yml.md
+            - Color Codes: colorcode.md
         - build: true
           default: false
           locale: de
           name: Deutsch
+          nav:
+            - Home: index.md
+            - SMP:
+              - config.yml: smp/config.yml.md
+              - Admin:
+                - mutedPlayers.yml: smp/admin/mutedPlayers.yml.md
+              - Discord:
+                - config.yml: smp/discord/config.yml.md
+                - save.yml: smp/discord/save.yml.md
+              - Fusions:
+                - fusionName.yml: smp/fusions/fusionName.yml.md
+              - Language:
+                - de.yml: smp/language/de.yml.md
+              - MultiMine:
+                - config.yml: smp/multiMine/config.yml.md
+              - Server:
+                - config.yml: smp/server/config.yml.md
+              - Status:
+                - config.yml: smp/status/config.yml.md
+                - save.yml: smp/status/save.yml.md
+              - Waypoints:
+                - config.yml: smp/waypoints/config.yml.md
+                - save.yml: smp/waypoints/save.yml.md
+            - Color Codes: colorcode.md
 
 markdown_extensions:
   - mdx_truly_sane_lists
@@ -70,27 +118,3 @@ markdown_extensions:
   - pymdownx.details
 
 
-nav:
-  - Home: index.md
-  - SMP:
-    - config.yml: smp/config.yml.md
-    - Admin:
-      - mutedPlayers.yml: smp/admin/mutedPlayers.yml.md
-    - Discord:
-      - config.yml: smp/discord/config.yml.md
-      - save.yml: smp/discord/save.yml.md
-    - Fusions:
-      - fusionName.yml: smp/fusions/fusionName.yml.md
-    - Language:
-      - language.yml: smp/language/language.yml.md
-    - MultiMine:
-      - config.yml: smp/multiMine/config.yml.md
-    - Server:
-      - config.yml: smp/server/config.yml.md
-    - Status:
-      - config.yml: smp/status/config.yml.md
-      - save.yml: smp/status/save.yml.md
-    - Waypoints:
-      - config.yml: smp/waypoints/config.yml.md
-      - save.yml: smp/waypoints/save.yml.md
-  - Color Codes: colorcode.md
