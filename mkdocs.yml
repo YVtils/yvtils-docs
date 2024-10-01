@@ -6,7 +6,6 @@ theme:
   logo: assets/logo_transparent.webp
   favicon: assets/logo_transparent.webp
   name: material
-  language: en
   palette:
 
     # Palette toggle for automatic mode
@@ -30,14 +29,6 @@ theme:
         name: Switch to system preference
 
 extra:
-  alternate:
-    - name: English
-      link: /en/ 
-      lang: en
-    - name: Deutsch
-      link: /de/
-      lang: de
-  
   social:
     - icon: fontawesome/brands/github
       link: 'https://github.com/YVtils'
@@ -51,6 +42,21 @@ copyright: Copyright &copy; 2024 YVtils
 plugins:
   - mkdocs-video
   - search
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - build: true
+          default: true
+          locale: en
+          name: English
+        - build: true
+          default: false
+          locale: de
+          name: Deutsch
+
 markdown_extensions:
   - mdx_truly_sane_lists
   - attr_list
