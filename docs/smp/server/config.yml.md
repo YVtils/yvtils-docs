@@ -1,7 +1,6 @@
-# .
+# Server List Configuration
 
 ```yaml
-documentation: https://yvtils.net/yvtils-smp/docs
 motd:
   top:
   - <gradient:red:green>SMP Server
@@ -12,7 +11,13 @@ motd:
   - '<gradient:blue:light_purple>Join our Discord: https://yvtils.net/yvtils/support'
   - <rainbow>The start of chapter 2
   maintenance: <gradient:red:green>Server is in maintenance mode
+```
+
+```yaml
 maxPlayers: -1
+```
+
+```yaml
 playerCountHover:
 - <gradient:blue:light_purple>+----------------------------+
 - <gradient:blue:light_purple>|         <serverName>         |

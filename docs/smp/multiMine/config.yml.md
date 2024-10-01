@@ -1,10 +1,18 @@
-# .
+# MultiMine Configuration
 
 ```yaml
-documentation: https://yvtils.net/yvtils-smp/docs
 animationTime: 3
+```
+
+```yaml
 cooldownTime: 3
+```
+
+```yaml
 breakLimit: 250
+```
+
+```yaml
 blocks:
 - OAK_LOG
 - BIRCH_LOG

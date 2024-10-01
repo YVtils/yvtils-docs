@@ -1,9 +1,17 @@
-# .
+# Waypoints Configuration
 
 ```yaml
-documentation: https://yvtils.net/yvtils-smp/docs
 waypointVisibility: public
+```
+
+```yaml
 announcePublicWaypoints: true
+```
+
+```yaml
 waypointOnRespawnPoint: true
+```
+
+```yaml
 waypointOnDeath: true
 ```
