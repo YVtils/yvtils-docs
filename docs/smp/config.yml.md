@@ -30,6 +30,7 @@ playerUpdateMessage: true
 
 ```yaml
 spawnElytra:
+  active: true
   radius: 50
   multiplyValue: 5
 ```
