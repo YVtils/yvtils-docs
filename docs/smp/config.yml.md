@@ -1,3 +1,6 @@
+# .
+
+```yaml
 documentation: https://yvtils.net/yvtils-smp/docs
 language: en
 prefix: <dark_gray>[<blue>YVtils-SMP<dark_gray>]<white>
@@ -26,3 +29,4 @@ msg:
   design: <yellow>[<red><sender> <yellow>-> <red><receiver><yellow>]<white> <message>
 maintenance: false
 debug: false
+```

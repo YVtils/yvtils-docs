@@ -1,3 +1,6 @@
+# .
+
+```yaml
 MODULE_FUSION_PLAYER_HEAD_DISPLAY_NAME: <gold><player>s Kopf
 MODULE_FUSION_LOAD_PLAYER_HEAD_FAILED: <red>Beim laden des Spieler Kopfes ist ein
   Fehler aufgetreten!
@@ -258,3 +261,4 @@ MODULE_WAYPOINT_NAVIGATE_STOPPED: <white>Die Navigation zum Wegpunkt <yellow><wa
   <white>wurde gestoppt!
 MODULE_WAYPOINT_NAVIGATE_FINISHED: <white>Die Navigation zum Wegpunkt <yellow><waypoint>
   <white>wurde beendet!
+```

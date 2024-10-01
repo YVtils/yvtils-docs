@@ -1,3 +1,6 @@
+# .
+
+```yaml
 enabled: true
 name: Invisible Item Frame
 displayItem: ITEM_FRAME
@@ -90,3 +93,4 @@ output:
   - lore: <white>Place this Item Frame and it will be invisible! <newline><red>Empty
       Item Frames will be destroyed and dropped after one minute!
   - data: INVISIBLE
+```

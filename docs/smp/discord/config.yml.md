@@ -1,3 +1,6 @@
+# .
+
+```yaml
 documentation: https://yvtils.net/yvtils-smp/docs
 botToken: YOUR TOKEN HERE
 mainGuild: Guild ID
@@ -36,3 +39,4 @@ serverStats:
     lastPlayerCount: 🎮 | PLAYERS <count>
     lastRefreshed: ⌚ | <time>
 logChannel: CHANNEL ID
+```

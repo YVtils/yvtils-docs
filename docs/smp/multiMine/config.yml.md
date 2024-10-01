@@ -1,3 +1,6 @@
+# .
+
+```yaml
 documentation: https://yvtils.net/yvtils-smp/docs
 animationTime: 3
 cooldownTime: 3
@@ -40,3 +43,4 @@ blocks:
 - ANCIENT_DEBRIS
 - GLOWSTONE
 - CHERRY_LOG
+```

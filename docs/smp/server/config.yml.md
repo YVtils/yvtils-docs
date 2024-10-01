@@ -1,3 +1,6 @@
+# .
+
+```yaml
 documentation: https://yvtils.net/yvtils-smp/docs
 motd:
   top:
@@ -17,3 +20,4 @@ playerCountHover:
 - '<gradient:blue:light_purple>| Players: <players> / <maxPlayers> |'
 - '<gradient:blue:light_purple>|   Website: https://yvtils.net   |'
 - <gradient:blue:light_purple>+----------------------------+
+```
