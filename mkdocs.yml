@@ -37,6 +37,16 @@ extra:
     - name: Deutsch
       link: /de/
       lang: de
+  
+  social:
+    - icon: fontawesome/brands/github
+      link: 'https://github.com/YVtils'
+    - icon: fontawesome/brands/discord
+      link: 'https://yvtils.net/yvtils/support'
+    - icon: fontawesome/brands/youtube
+      link: 'https://www.youtube.com/@WolfiiYV'
+
+copyright: Copyright &copy; 2024 YVtils
 
 plugins:
   - mkdocs-video
