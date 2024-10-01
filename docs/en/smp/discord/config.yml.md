@@ -1,7 +1,6 @@
 # Discord Module Configuration
 
-!!! info
-    For this module there is a extra video tutorial available. [Click here to watch it](https://youtu.be/YQiYSjEcdMk?si=YEPZ5jn6HhDgWJfI).
+![type:video](https://www.youtube.com/embed/YQiYSjEcdMk)
 
 !!! info
     JDA permissions can be found [here](https://ci.dv8tion.net/job/JDA5/javadoc/net/dv8tion/jda/api/Permission.html).
