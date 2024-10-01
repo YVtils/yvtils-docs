@@ -63,3 +63,4 @@ nav:
     - Waypoints:
       - config.yml: smp/waypoints/config.yml.md
       - save.yml: smp/waypoints/save.yml.md
+  - Color Codes: colorcode.md
