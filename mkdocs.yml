@@ -38,9 +38,8 @@ extra:
       link: /de/
       lang: de
 
-copyright: >
-  Copyright &copy; 2016 - 2024 Martin Donath –
-  <a href="#__consent">Change cookie settings</a>
+  version:
+    provider: mike
 
 plugins:
   - mkdocs-video
