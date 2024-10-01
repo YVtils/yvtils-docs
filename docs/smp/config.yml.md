@@ -30,7 +30,6 @@ playerUpdateMessage: true
 
 ```yaml
 spawnElytra:
-  active: true
   radius: 50
   multiplyValue: 5
 ```
@@ -41,12 +40,12 @@ disableTooExpensive: true
 
 ```yaml
 joinMessages:
-- <green>» <white><player>
+  - <green>» <white><player>
 ```
 
 ```yaml
 leaveMessages:
-- <red>« <white><player>
+  - <red>« <white><player>
 ```
 
 ```yaml
