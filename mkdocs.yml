@@ -1,0 +1,39 @@
+---
+site_name: YVtils Documentation
+nav:
+  - Startseite: index.md
+  - SMP:
+    - config.yml: smp/config.yml.md
+    - Admin:
+      - mutedPlayers.yml: smp/admin/mutedPlayers.yml.md
+    - Discord:
+      - config.yml: smp/discord/config.yml.md
+      - save.yml: smp/discord/save.yml.md
+    - Fusions:
+      - fusionName.yml: smp/fusions/fusionName.yml.md
+    - Language:
+      - language.yml: smp/language/language.yml.md
+    - MultiMine:
+      - config.yml: smp/multiMine/config.yml.md
+    - Server:
+      - config.yml: smp/server/config.yml.md
+    - Status:
+      - config.yml: smp/status/config.yml.md
+      - save.yml: smp/status/save.yml.md
+    - Waypoints:
+      - config.yml: smp/waypoints/config.yml.md
+      - save.yml: smp/waypoints/save.yml.md
+theme: material
+plugins:
+  - mkdocs-video
+markdown_extensions:
+  - mdx_truly_sane_lists
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
