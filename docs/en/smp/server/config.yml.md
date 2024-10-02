@@ -55,7 +55,7 @@ maintenance: <gradient:red:green>Server is in maintenance mode
 maxPlayers: -1
 ```
 
-**HELP:** Set the max player count, which will be displayed in the server list.
+**HELP:** Set the max player count, which will be displayed in the server list. (This does not affect the actual player count)
 
 **VALUES:** Any integer
 

@@ -25,6 +25,12 @@ aab8f297-b6f0-4ebb-a064-9968e1a1cc45:
     y: <Y>
     z: <Z>
     world: <WORLD>
+  <WAYPOINT_NAME_2>:
+    visibility: <VISIBILITY>
+    x: <X>
+    y: <Y>
+    z: <Z>
+    world: <WORLD>
 ```
 
 ---
@@ -47,7 +53,7 @@ visibility: public
 
 **HELP:** The visibility of the waypoint.
 
-**VALUES:** `public`, `private` od `unlisted`
+**VALUES:** `public`, `private` or `unlisted`
 
 ```yaml
 x: -1018.5820613639708

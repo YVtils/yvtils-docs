@@ -118,6 +118,8 @@ allowChatColors: true
 
 **HELP:** Enable or disable the use of chat colors in messages sent by players.
 
+**VALUES:** `true` or `false`
+
 ```yaml
 msg:
   design: <yellow>[<red><sender> <yellow>-> <red><receiver><yellow>]<white> <message>
@@ -127,6 +129,12 @@ msg:
 
 **VALUES:** Any string
 
+**VARIABLES:**
+
+- `<sender>` - The name of the sender
+- `<receiver>` - The name of the receiver
+- `<message>` - The message
+
 ```yaml
 maintenance: false
 ```
@@ -135,8 +143,10 @@ maintenance: false
 
 **VALUES:** `true` or `false`
 
+!!! warning
+    Only change the following settings if you know what you are doing.
+
 ```yaml
-@DO NOT CHANGE IF YOU DON'T KNOW WHAT YOU ARE DOING
 debug: false
 ```
 

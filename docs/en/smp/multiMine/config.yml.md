@@ -4,7 +4,7 @@
 animationTime: 3
 ```
 
-**HELP:** Set the time in ticks for the block breaking animation.
+**HELP:** Set the time in ticks for the block breaking animation. (1 second = 20 ticks)
 
 **VALUES:** Any integer
 
@@ -77,4 +77,4 @@ blocks:
 
 **HELP:** Set the blocks that can be broken with the MultiMine feature.
 
-**VALUES:** Multiple strings
+**VALUES:** List of block names

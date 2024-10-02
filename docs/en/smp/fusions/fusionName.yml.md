@@ -1,7 +1,7 @@
 # Fusion Example Configuration
 
 !!! warning
-    It is highly recommended to edit fusion configurations using the in-game GUI. Incorrect changes can lead to broken fusions.
+    It is highly recommended to edit fusion configurations using the in-game GUI (`/fusion manage`). Incorrect changes can lead to broken fusions.
 
 !!! info
     This will probably be recoded to use JSON in the future.
@@ -135,7 +135,7 @@ output:
 '0':
 ```
 
-**HELP:** The position of the output.
+**HELP:** The index of the output.
 
 ```yaml
   - item: ITEM_FRAME
