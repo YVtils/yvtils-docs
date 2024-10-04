@@ -15,7 +15,7 @@ language: de
 prefix: <dark_gray>[<blue>YVtils-SMP<dark_gray>]<white>
 ```
 
-**HELP:** Set the prefix of messages sent by the plugin.
+**HELP:** Lege den Prefix fest, welcher in Nachrichten des Plugins verwendet wird.
 
 **VALUES:** Beliebiger Text
 

@@ -15,6 +15,8 @@ motd:
   maintenance: <gradient:red:green>Server is in maintenance mode
 ```
 
+---
+
 ```yaml
 top:
   - <gradient:red:green>SMP Server
