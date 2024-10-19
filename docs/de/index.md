@@ -16,7 +16,7 @@
 - [discord/config.yml](smp/discord/config.yml.md)
 - [discord/save.yml](smp/discord/save.yml.md)
 - [fusions/fusionName.yml](smp/fusions/fusionName.yml.md)
-- [language/en.yml](smp/language/de.yml.md)
+- [language/de.yml](smp/language/de.yml.md)
 - [multiMine/config.yml](smp/multiMine/config.yml.md)
 - [server/config.yml](smp/server/config.yml.md)
 - [status/config.yml](smp/status/config.yml.md)
