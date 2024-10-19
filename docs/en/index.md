@@ -24,6 +24,12 @@
 - [waypoints/config.yml](smp/waypoints/config.yml.md)
 - [waypoints/save.yml](smp/waypoints/save.yml.md)
 
+## YVtils-MM / MultiMine
+
+- [config.yml](mm/config.yml.md)
+- [language/en.yml](mm/language/en.yml.md)
+- [multiMine/config.yml](mm/multiMine/config.yml.md)
+
 ---
 
 # CHAPTER TWO IS OUT NOW!

@@ -75,6 +75,12 @@ plugins:
               - Waypoints:
                 - config.yml: smp/waypoints/config.yml.md
                 - save.yml: smp/waypoints/save.yml.md
+            - MultiMine:
+              - config.yml: mm/config.yml.md
+              - MultiMine:
+                - config.yml: mm/multiMine/config.yml.md
+              - Language:
+                - en.yml: mm/language/en.yml.md
             - Color Codes: colorcode.md
         - build: true
           default: false
@@ -103,6 +109,12 @@ plugins:
               - Waypoints:
                 - config.yml: smp/waypoints/config.yml.md
                 - save.yml: smp/waypoints/save.yml.md
+            - MultiMine:
+              - config.yml: mm/config.yml.md
+              - MultiMine:
+                - config.yml: mm/multiMine/config.yml.md
+              - Language:
+                - en.yml: mm/language/de.yml.md
             - Color Codes: colorcode.md
 
 markdown_extensions:

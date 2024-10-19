@@ -16,13 +16,19 @@
 - [discord/config.yml](smp/discord/config.yml.md)
 - [discord/save.yml](smp/discord/save.yml.md)
 - [fusions/fusionName.yml](smp/fusions/fusionName.yml.md)
-- [language/en.yml](smp/language/en.yml.md)
+- [language/en.yml](smp/language/de.yml.md)
 - [multiMine/config.yml](smp/multiMine/config.yml.md)
 - [server/config.yml](smp/server/config.yml.md)
 - [status/config.yml](smp/status/config.yml.md)
 - [status/save.yml](smp/status/save.yml.md)
 - [waypoints/config.yml](smp/waypoints/config.yml.md)
 - [waypoints/save.yml](smp/waypoints/save.yml.md)
+
+## YVtils-MM / MultiMine
+
+- [config.yml](mm/config.yml.md)
+- [language/de.yml](mm/language/de.yml.md)
+- [multiMine/config.yml](mm/multiMine/config.yml.md)
 
 ---
 
