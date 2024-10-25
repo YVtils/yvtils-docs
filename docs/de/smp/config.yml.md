@@ -37,6 +37,7 @@ modules:
   server: true
   waypoints: true
   multiMine: true
+  message: true
 ```
 
 **HELP:** Aktiviere oder deaktiviere Module des Plugins.

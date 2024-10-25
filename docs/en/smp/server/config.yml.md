@@ -26,7 +26,7 @@ top:
 
 **VALUES:** Multiple strings
 
-**VARIABLES:** `<version>`
+**VARIABLES:** `<serverName>`; `<version>`; `<players>`; `<maxPlayers>`; `<date>`; `<onlinePlayers>`
 
 ```yaml
 bottom:
@@ -39,7 +39,7 @@ bottom:
 
 **VALUES:** Multiple strings
 
-**VARIABLES:** `<version>`
+**VARIABLES:** `<serverName>`; `<version>`; `<players>`; `<maxPlayers>`; `<date>`; `<onlinePlayers>`
 
 ```yaml
 maintenance: <gradient:red:green>Server is in maintenance mode
@@ -48,6 +48,8 @@ maintenance: <gradient:red:green>Server is in maintenance mode
 **HELP:** Set the message that is displayed in the server list when the server is in maintenance mode.
 
 **VALUES:** Any string
+
+**VARIABLES:** `<serverName>`; `<version>`; `<players>`; `<maxPlayers>`; `<date>`; `<onlinePlayers>`
 
 ---
 
@@ -72,3 +74,5 @@ playerCountHover:
 **HELP:** Set the hover text that is displayed when hovering over the player count in the server list.
 
 **VALUES:** Multiple strings
+
+**VARIABLES:** `<serverName>`; `<version>`; `<players>`; `<maxPlayers>`; `<date>`; `<onlinePlayers>`

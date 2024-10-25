@@ -28,7 +28,7 @@ top:
 
 **VALUES:** Mehrere Zeichenketten
 
-**VARIABLES:** `<version>`
+**VARIABLES:** `<serverName>`; `<version>`; `<players>`; `<maxPlayers>`; `<date>`; `<onlinePlayers>`
 
 ```yaml
 bottom:
@@ -41,7 +41,7 @@ bottom:
 
 **VALUES:** Mehrere Zeichenketten
 
-**VARIABLES:** `<version>`
+**VARIABLES:** `<serverName>`; `<version>`; `<players>`; `<maxPlayers>`; `<date>`; `<onlinePlayers>`
 
 ```yaml
 maintenance: <gradient:red:green>Server is in maintenance mode
@@ -50,6 +50,8 @@ maintenance: <gradient:red:green>Server is in maintenance mode
 **HELP:** Setze die Nachricht, die angezeigt wird, wenn der Server sich im Wartungsmodus befindet.
 
 **VALUES:** Belibiger Text
+
+**VARIABLES:** `<serverName>`; `<version>`; `<players>`; `<maxPlayers>`; `<date>`; `<onlinePlayers>`
 
 ---
 
@@ -74,3 +76,5 @@ playerCountHover:
 **HELP:** Setze die Nachricht, die angezeigt wird, wenn der Mauszeiger über die Spieleranzahl in der Serverliste bewegt wird.
 
 **VALUES:** Mehrere Zeichenketten
+
+**VARIABLES:** `<serverName>`; `<version>`; `<players>`; `<maxPlayers>`; `<date>`; `<onlinePlayers>`
