@@ -55,6 +55,7 @@ plugins:
           nav:
             - Home: index.md
             - SMP:
+              - Permissions: smp/permissions.md
               - config.yml: smp/config.yml.md
               - Admin:
                 - mutedPlayers.yml: smp/admin/mutedPlayers.yml.md
@@ -89,6 +90,7 @@ plugins:
           nav:
             - Home: index.md
             - SMP:
+              - Berechtigungen: smp/permissions.md
               - config.yml: smp/config.yml.md
               - Admin:
                 - mutedPlayers.yml: smp/admin/mutedPlayers.yml.md
